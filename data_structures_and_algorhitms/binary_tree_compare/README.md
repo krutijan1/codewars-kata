@@ -2,9 +2,9 @@ Given the node object:
 
 ```javascript
 Node:
-val: <int>,
-left: <Node> or null,
-right: <Node> or null
+  val: <int>,
+  left: <Node> or null,
+  right: <Node> or null
 ```
 
 write a function compare(a, b) which compares the two trees defined by Nodes a and b and returns true if they are equal in structure and in value and false otherwise.
