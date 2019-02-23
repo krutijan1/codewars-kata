@@ -24,6 +24,6 @@ var TreeNode = function(value, left, right) {
 
 This kata is part of fun with trees series:
 
-Fun with trees: max sum
-Fun with trees: array to tree
-Fun with trees: is perfect
+- Fun with trees: max sum
+- Fun with trees: array to tree
+- Fun with trees: is perfect
