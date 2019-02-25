@@ -4,7 +4,7 @@ function lineupStudents(students) {
     return [];
   }
 
-  const result = students.split(' ');
+  const result = students.split(' ').filter(e => e.length != 0);
 
   return result.sort((a, b) => {
     if (a.length > b.length) {
