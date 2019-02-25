@@ -10,7 +10,7 @@ function countInversions(arr) {
   let stop = 0;
 
   for (let i = 0; i < len; i++) {
-    for (let j = 0, stop = len - i; j < stop; j++) {
+    for (let j = 0, stop = len - i - 1; j < stop; j++) {
       if (arr[j] > arr[j + 1]) {
         swap(arr, j, j + 1);
         // number of inversions is number of swaps needed
