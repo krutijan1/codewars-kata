@@ -73,6 +73,6 @@ function LinkedList() {
       position += 1;
     }
 
-    return currentNode === null ? undefined : currentNode;
+    return currentNode === null ? undefined : currentNode.element;
   };
 }
