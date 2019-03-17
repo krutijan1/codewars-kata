@@ -9,8 +9,8 @@ Animal.prototype = {
 
 // Add your code below this line
 
-let duck; // Change this line
-let beagle; // Change this line
+let duck = Object.create(Animal.prototype);
+let beagle = Object.create(Animal.prototype);
 
 duck.eat(); // Should print "nom nom nom"
 beagle.eat(); // Should print "nom nom nom"
