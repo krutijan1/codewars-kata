@@ -9,4 +9,4 @@ var firstLetterOfLastName = '';
 var lastName = 'Lovelace';
 
 // Only change code below this line
-firstLetterOfLastName = lastName;
+firstLetterOfLastName = lastName[0];
