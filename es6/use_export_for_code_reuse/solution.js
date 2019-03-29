@@ -1,5 +1,3 @@
 'use strict';
-const foo = 'bar';
-const bar = 'foo';
-
-export { foo, bar };
+export const foo = 'bar';
+export const bar = 'foo';
