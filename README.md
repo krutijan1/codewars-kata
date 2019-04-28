@@ -1,2 +1,0 @@
-# codewars-kata
-Basic practicing
